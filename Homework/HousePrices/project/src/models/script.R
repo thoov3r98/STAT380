@@ -13,4 +13,4 @@ linear_prediction <- data.frame( Id = testingdata$Id, SalePrice = linear_predict
 #To verify it worked, look at the top rows of the two prediction data sets.
 head(linear_prediction)
 
-write.csv(linear_prediction, 'DTprediction')
+write.csv(linear_prediction, 'linearprediction')
