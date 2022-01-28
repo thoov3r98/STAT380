@@ -1,4 +1,4 @@
-trainingdata <- read.csv('Stat_380_train2022.csv')
+trainingdata <- read.csv('TrainingData')
 testingdata <- read.csv('Stat_380_test2022.csv')
 
 cor(trainingdata[sapply(trainingdata,is.numeric)])
